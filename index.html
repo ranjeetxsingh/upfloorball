@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UP Floorball Assosication</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/cc/all.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- header section start page -->
+<header class="header">
+    <a href="#" class="logo"></i> UP FLOORBALL </a>
+    
+    <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="#media-gallery">Media Gallery</a>
+    <a href="#about-us">About Us</a>
+    <a href="#patrons">Our Patrons</a>
+    <!-- <a href="#blogs">Our Blogs</a> -->
+    <a href="#contact-us">Contact Us</a>
+    </nav>
+
+<div class="icons">
+<div id="menu-btn" class="fas fa-bars"></div>
+<!-- <div id="search-btn" class="fas fa-search"></div> -->
+</div>
+</header>
+
+<!-- home section start -->
+<section class="home" id="home">
+    <div class="slides-container">
+    <div class="slide active">
+    <div class="content">
+    <span>Lucknow, UP</span>
+    <h3>16th National</h3>
+    <h3>Floorball</h3>
+    <h3>Championship</h3>
+    <a href="mediagallery1.html" class="btn">View More</a>
+    </div>
+    <div class="img">
+    <img src="floorballimages\IMG-20221229-WA0031.jpg">
+    </div>
+</div>
+
+    <div class="slide">
+        <div class="content">
+        <span>Phagwara, Punjab</span>
+        <h3>16th National</h3>
+        <h3>Floorball</h3>
+        <h3>Championship</h3>
+        <a href="mediagallery2.html" class="btn">View More</a>
+        </div>
+        <div class="img">
+        <img src="floorballimages\new_images\23.jpg">
+        </div>
+        </div>
+        
+
+        <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+        <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+        </div>
+</section>
+
+<!-- banner section start -->
+<section class="banner-container">
+        <div class="banner">
+        <img src="floorballimages\IMG-20221229-WA0033.jpg" alt="">
+        <div class="content">
+        <span>Lucknow, UP/November 2022</span>
+        <h3>16th National Floorball Championship</h3>
+        <a href="mediagallery1.html" class="btn">View More</a>
+        </div>
+        </div>
+
+        <div class="banner">
+        <img src="floorballimages\new_images\23.jpg" alt="">
+        <div class="content">
+        <span>Phagwara, Punjab/October 2022</span>
+        <h3>16th National Floorball Championship</h3>
+        <a href="mediagallery2.html" class="btn">View More</a>
+        </div>
+        </div>
+
+        <div class="banner">
+        <img src="floorballimages\IMG-20221229-WA0035.jpg" alt="">
+        <div class="content">
+        <span>Lucknow, UP/November 2022</span>
+        <h3>16th National Floorball Championship</h3>
+        <a href="mediagallery1.html" class="btn">View More</a>
+        </div>
+        </div>
+
+</section>
+     
+<!-- media gallery section start -->
+<div class="heading" id="media-gallery">
+    <h1>Media Gallery</h1>
+</div>
+<section class="category">
+    <div class="box-container">
+    <a href="mediagallery1.html" class="box">
+    <img src="floorballimages/new_images/01.jpg" alt="">
+    <h3>16th National</h3>
+    </a>
+    <a href="mediagallery2.html" class="box">
+    <img src="floorballimages/new_images/17.jpg" alt="">
+    <h3>16th National</h3>
+    </a>
+    </div>
+</section>
+
+<!-- about section -->
+<div class="heading" id="about-us">
+<h1>About Us</h1>
+</div>
+<section class="about">
+<div class="img">
+<img src="data:image/png;base64,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" alt="">
+</div>
+<div class="content">
+<h3>
+<span>International Floorball Federation</span>
+</h3>
+<p>The International Floorball Federation (IFF) is the head organisation of world floorball and was founded by Sweden, Finland & Switzerland on 12th April 1986.
+
+    Floorball is a fast growing sport, traditionally played indoors with sticks that have a carbon fibre shaft and plastic blade. In the original version of the game each team have five field players and a goalkeeper on the court at one time, with the goalkeeper playing without a stick. Other formats of the game are played with 3v3 and 4v4 on modified court sizes, either with or without a goalkeeper. Many of these modified versions are played outdoors.
+    
+    The IFF is a full member of the IOC, an ordinary member of GAISF (formerly SportAccord) and cooperates with FISU. It is a medal sport on The World Games programme.
+    
+    The Strategic vision for the Floorball is defined as follows in the IFF Vision statement:
+    
+    “Floorball is the most inclusive team sport, played with over a million registered players on all continents.”</p>
+<a href="https://floorball.sport/theiff/" class="btn">read more</a>
+</div>
+
+<div class="img">
+<img src="floorballimages/new_images/inff logo.jpg" alt="">
+</div>
+<div class="content">
+<h3>Indian Floorball Federation</h3>
+<p>Indian Floorball Federation(InFF) is the apex floorball body in India. Its main objective is to promote floorball in our country and to become globally competitive. InFF has taken a number of initiatives for promotion and development of floorball in India and is successfully conducting the floorball championships at District, State and National level regularly. InFF is also organizing training programs for Referee and Coaches on a regular basis. It is recognized by the IFF and IOC. IFF member since 2002.</p>
+<a href="https://floorballindia.com/InFF/" class="btn">read more</a>
+</div>
+
+<div class="img">
+<img src="floorballimages/new_images/up logo.png" alt="">
+</div>
+<div class="content">
+<span></span>
+<h3>Floorball Association Uttar Pradesh</h3>
+<p>Floorball Association Of Uttar Pradesh is the working body under Indian Floorball Federation(InFF). Its main objective is to promote floorball in Uttar Pradesh and to become nationally competitive. FAUP has taken a number of initiatives for promotion and development of floorball in Uttar Pradesh and is successfully conducting the floorball championships at District and  State level regularly.</p>
+<a href="about1.html" class="btn">read more</a>
+</div>
+</section>
+
+<!-- our patrons section start -->
+<div class="heading" id="patrons">
+<h1>Our Patrons</h1>
+</div>
+<section class="review">
+<div class="box">
+<div class="user">
+<img src="floorballimages/new_images/state president.jpg" alt="">
+<div class="info">
+<h3>Mr. Viraj Sagar Das</h3>
+<span>State President</span>
+</div>
+</div>
+<!-- <p>Description</p> -->
+</div>
+
+
+<div class="box">
+    <div class="user">
+    <img src="floorballimages/new_images/member.jpg" alt="">
+    <div class="info">
+    <h3>Mr. Vijay Kumar</h3>
+    <span>State Vice President</span>
+    </div>
+    </div>
+    <!-- <p>Description</p> -->
+    </div>
+
+<div class="box">
+<div class="user">
+<img src="floorballimages/new_images/general secretary.jpg" alt="">
+<div class="info">
+<h3>Mr. Amar Prakash Dixit</h3>
+<span>State General Secretary</span>
+</div>
+</div>
+<!-- <p>Description</p> -->
+</div>
+
+<div class="box">
+<div class="user">
+<img src="floorballimages/new_images/joint secretary.jpg" alt="">
+<div class="info">
+<h3>M/S Anjali Tripathi</h3>
+<span>State Joint Secretary</span>
+</div>
+</div>
+<!-- <p>Description</p> -->
+</div>
+
+<div class="box">
+<div class="user">
+<img src="floorballimages/new_images/joint secretary 2.jpg" alt="">
+<div class="info">
+<h3>Mr. Mohit Pandey</h3>
+<span>State Joint Secretary </span>
+</div>
+</div>
+<!-- <p>Description</p> -->
+</div>
+
+<div class="box">
+<div class="user">
+<img src="floorballimages/new_images/executive member.jpg" alt="">
+<div class="info">
+<h3>Mr. Pankaj Tripathi</h3>
+<span>State Executive Member</span>
+</div>
+</div>
+<!-- <p>Description</p> -->
+</div>
+
+</section>
+
+
+<!-- blog section start -->
+<!-- <div class="heading" id="blogs">
+    <h1>Our Blogs</h1>
+</div>
+<section class="about">
+    <div class="img">
+    <img src="floorballimages/IMG-20221229-WA0039.jpg" alt="">
+    </div>
+    <div class="content">
+    <span>Welcome to our Association</span>
+    <h3>sporteyz</h3>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore farhan aliqua. Ut enim ad minim veniam, quis nostrud
+    exercitation
+    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+    reprehenderit
+    in voluptate </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    farhan aliqua. Ut enim ad minim veniam, quis</p>
+    <a href="blog1.html" class="btn">read more</a>
+    </div>
+    
+    <div class="img">
+    <img src="floorballimages/IMG-20221229-WA0039.jpg" alt="">
+    </div>
+    <div class="content">
+    <span>Welcome to our Association</span>
+    <h3>sporteyz</h3>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore farhan aliqua. Ut enim ad minim veniam, quis nostrud
+    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+    reprehenderit in voluptate </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+    farhan aliqua. Ut enim ad minim veniam, quis</p>
+    <a href="blog2.html" class="btn">read more</a>
+    </div>
+    
+    <div class="img">
+    <img src="floorballimages/IMG-20221229-WA0039.jpg" alt="">
+    </div>
+    <div class="content">
+    <span>Welcome to our Association</span>
+    <h3>sporteyz</h3>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore farhan aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor farhan aliqua. Ut enim ad minim veniam, quis</p>
+    <a href="blog3.html" class="btn">read more</a>
+    </div>
+</section> -->
+
+<!-- contact section start -->
+ <div class="heading" id="contact-us">
+<h1>Contact us</h1>
+</div>
+<section class="contact">
+<div class="icons-container">
+<div class="icons">
+<i class="fas fa-phone"></i>
+<h3>our number</h3>
+<p>+91 7007055746</p>
+</div>
+<div class="icons">
+<i class="fas fa-envelope"></i>
+<h3>our email</h3>
+<p>upfloorball0771@gmail.com</p>
+</div>
+<div class="icons">
+<i class="fas fa-map-marker-alt"></i>
+<h3>our address</h3>
+<p>Lucknow, India - 226021</p>
+</div>
+</div>
+</section>
+
+<!-- footer section start -->
+<section class="footer">
+    <div class="box-container">
+    <div class="box">
+    <h3>quick links</h3>
+    <a href="#"><i class="fas fa-arrow-right"></i>Home</a>
+    <a href="#media-gallery"><i class="fas fa-arrow-right"></i>Media Gallery</a>
+    <a href="#about-us"><i class="fas fa-arrow-right"></i>About Us</a>
+    <a href="#patrons"><i class="fas fa-arrow-right"></i>Our Patrons</a>
+    <a href="#blogs"><i class="fas fa-arrow-right"></i>Our Blogs</a>
+    </div>
+    
+    <div class="box">
+    <h3>follow us</h3>
+    <a href="#"><i class="fab fa-facebook-f"></i> facebook </a>
+    <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+    <a href="#"><i class="fab fa-instagram"></i> instagram </a>
+    <a href="#"><i class="fab fa-linkedin"></i> linkedin </a>
+    <a href="#"><i class="fab fa-pinterest"></i> pinterest </a>
+    </div>
+    <div class="box">
+    <h3>keep following us</h3>
+    <p>to get the latest updates about floorball</p>
+    </div>
+</section>
+
+<div class="credit">created by tanya || all right reserved</div>
+
+<!-- custom js file link -->
+<script src="main.js"></script>
+</body>
+</html>
